@@ -159,6 +159,10 @@ html.lenis, html.lenis body {
     cursor: pointer;
 }
 
+.service-block img {
+    object-fit: cover;
+}
+
 .service-content {
     padding: 40px 0 40px 40px;
 }
