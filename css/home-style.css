@@ -432,4 +432,23 @@ body.show-custom-cursor .cursor {
     .benefit-block {
         padding: 20px 20px;
     }
+
+    .intro-img {
+        max-width: 100%;
+    }
+
+    .banner-block .intro-wrapper:nth-child(1) {
+        top: 5%;
+        right: 5%;
+    }
+
+    .banner-block .intro-wrapper:nth-child(2) {
+        left: 0%;
+        top: 30%;
+    }
+
+    .banner-block .intro-wrapper:nth-child(3) {
+        right: 0%;
+        top: 50%;
+    }
 }
