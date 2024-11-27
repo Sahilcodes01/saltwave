@@ -14,7 +14,7 @@ body {
     font-size: 80px;
     -webkit-text-stroke: 1px var(--white-color);
     color: transparent;
-    opacity: 0.2;
+    opacity: 0.4;
     font-weight: 800;
     letter-spacing: -2.5px;
     margin: 0 0 -60px;
@@ -147,7 +147,7 @@ html.lenis, html.lenis body {
     font-size: 80px;
     -webkit-text-stroke: 1px var(--white-color);
     color: transparent;
-    opacity: 0.3;
+    opacity: 0.4;
     font-weight: 800;
 }
 

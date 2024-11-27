@@ -45,6 +45,24 @@
     --radius-20: 20px;
 }
 
+/* Custom Cursor */
+
+body .cursor-block {
+    pointer-events: none;
+}
+
+body .cursor__ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+}
+
+body .cursor__ball circle {
+    fill: #f7f8fa;
+}
+
 .theme-primary {
     background-color: var(--theme-primary);
 }
@@ -78,6 +96,7 @@ body {
     font-weight: 400;
     font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
     color: var(--white-color);
+    cursor: none;
 }
 
 .container {
@@ -603,5 +622,12 @@ p {
     .new-faq .accordion-item h2.accordion-header button {
         font-size: 18px !important;
         gap: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .navigation-nav  .button-primary {
+        display: none;
     }
 }
