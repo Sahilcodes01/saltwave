@@ -120,7 +120,7 @@ html.lenis, html.lenis body {
 }
 
 .banner-block .intro-wrapper:nth-child(3) {
-    right: 10%;
+    right: 20%;
     top: 50%;
 }
 
@@ -450,5 +450,11 @@ body.show-custom-cursor .cursor {
     .banner-block .intro-wrapper:nth-child(3) {
         right: 0%;
         top: 50%;
+    }
+
+    .tick-list li {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 8px 12px;
     }
 }
